@@ -117,6 +117,7 @@ SIMPLE_JWT = {
 # CORS Settings
 CORS_ALLOWED_ORIGINS = [
     os.getenv('FRONTEND_URL', 'http://localhost:3000'),
+    "https://health-secure-vini.vercel.app",
 ]
 CORS_ALLOW_CREDENTIALS = True
 
