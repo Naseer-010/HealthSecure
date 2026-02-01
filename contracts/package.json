@@ -1,0 +1,23 @@
+{
+    "name": "healthsecure-contracts",
+    "version": "1.0.0",
+    "description": "HealthSecure Smart Contracts for Quai Network",
+    "scripts": {
+        "compile": "npx hardhat compile",
+        "test": "npx hardhat test",
+        "deploy:local": "npx hardhat run scripts/deploy.js --network localhost",
+        "deploy:quai": "npx hardhat run scripts/deploy.js --network cyprus1",
+        "node": "npx hardhat node"
+    },
+    "devDependencies": {
+        "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+        "hardhat": "^2.19.0"
+    },
+    "dependencies": {
+        "@openzeppelin/contracts": "^5.0.0",
+        "@quai/hardhat-deploy-metadata": "^1.0.8",
+        "@quai/quais-upgrades": "^3.8.14",
+        "dotenv": "^16.3.0",
+        "quais": "^1.0.0-alpha.52"
+    }
+}

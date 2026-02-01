@@ -1,0 +1,11 @@
+{
+  "network": "quaiOrchard",
+  "chainId": "15000",
+  "deployer": "0x001232e7f554d8938d77F305cc8C415Ff3fBAe39",
+  "timestamp": "2026-02-01T15:09:39.756Z",
+  "contracts": {
+    "HealthSecureIdentity": "0x0027693Fb95dA537bD440357734231B35612BEa5",
+    "MedicalRecordRegistry": "0x005F1C8B50E23F435d5E0D3582906864692624b8",
+    "AccessControl": "0x003a2ce21dF7E0bc87A183A4b7ac422ee0ff83CA"
+  }
+}
